@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  background-color: #FAF9F4;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+}
+
+p {
+  font-family: 'Droid Serif', serif;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: .5px;
+}
+
+.container {
+  width: 1200px;
+  height: 1200px;
+  padding: 50px;
+}
+
+.menu {
+  float: right;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.me {
+  margin: auto;
+  width: 1198px;
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 50px;
+}
+
+.text-content {
+  width: 580px;
+  margin-top: 500px;
+  position: absolute;
+}
+
+.photo-content {
+  width: 500px;
+  margin-top: 500px;
+  margin-left: 600px;
+  position: absolute;
+}
+
+.row1 img, .row2 img, .row3 img {
+  max-width: 127px;
+  max-height: 127px;
+  padding: 10px;
+  float: left;
+}
+
+.wide-photos {
+  margin-top: 10px;
+}
+
+.skinny-photos {
+  margin-left: 10px;
+}
+
+.skinny-photos2 {
+  margin-left: 5px;
+}
+
+.social-icons img {
+  margin-right: 12px;
+  margin-top: 18px;
+}
+
+.email-me {
+  font-family: "Montserrat";
+  width: 162px;
+  height: 62px;
+  background-color: #4827F9;
+  border-radius: 3px;
+  padding-top: 21px;
+  padding-right: 34px;
+  padding-bottom: 21px;
+  padding-left: 34px;
+  margin-top: 20px;
+}
+
+.email-me:hover{
+  opacity: 0.8;
+}
+
+.email-me h3 {
+  color: white;
+  font-size: 16px;
+  margin-top: 0px;
+  letter-spacing: 1px;
+}
